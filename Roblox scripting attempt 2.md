@@ -7,7 +7,8 @@ print(3+3) (prints 6) - interger
 
 # Variables
 
-```Local Name1 = 7 (Name1 is the variable)
+```
+Local Name1 = 7 (Name1 is the variable)
 Print(Name1) (will print 7)
 ```
 
