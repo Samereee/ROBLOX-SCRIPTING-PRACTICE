@@ -13,8 +13,7 @@ Print(Name1) (will print 7)
 
 # Wait
 
-```Wait(2) (waits 2 seconds)
-```
+```Wait(2) (waits 2 seconds)```
 
 # Properites
 
