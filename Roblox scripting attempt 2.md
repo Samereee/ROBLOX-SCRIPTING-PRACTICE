@@ -1,6 +1,7 @@
 # Printing
 
-```print("hello") - string
+```
+print("hello") - string
 print(true) - boolean
 print(3+3) (prints 6) - interger
 ```
@@ -18,7 +19,8 @@ Print(Name1) (will print 7)
 
 # Properites
 
-```local Part = game.Workspace.(name of part)
+```
+local Part = game.Workspace.(name of part)
 
 Part.Anchored = false (anchored is a property) (true and false can enable and disable it) (example: Part.Anchored = ture will make it anchored)
 
