@@ -45,3 +45,20 @@ wait(2)
 ChangeColor()
 
 - (it will start after you wrote the line after function (this was ChangeColor())) (must add "()" after writing what will be a function starter example: function miau() now when you type "miau()" the function will start)  (After 2 seconds it will change color)
+
+function Changecolor(Functionspart)
+	Functionspart.BrickColor = BrickColor.Random()
+end
+
+wait(2)
+
+Changecolor(game.Workspace.FPart)
+
+wait(2)
+
+Changecolor(game.Workspace.FPart2)
+
+wait(2)
+
+Changecolor(game.Workspace.FPart3) - will change the color of 3 individual blocks
+```
