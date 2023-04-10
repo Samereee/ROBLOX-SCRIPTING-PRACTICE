@@ -125,7 +125,7 @@ elseif Vari == "123" then
 	print("yes 123")
 else
 	print("No NO NOOO!")
-end -(else means that if its any thing other than "123 or 122" it will print NOOOO)
+end -("else" means that if its any thing other than "123 or 122" it will print NOOOO)
 --------------------------------------------------
 if 1 + 1 == 2 and 2 + 2 == 4 then
 	print("indeed")
