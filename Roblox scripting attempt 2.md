@@ -85,6 +85,7 @@ print("Steady!")
 wait(2)
 
 ChangecolorGreen(game.Workspace.FPart3)
-print("Go!") - (A countdown that changes each block red yellow green respectivley and prints ready steady go)
+print("Go!") 
+(A countdown that changes each block red yellow green respectivley and prints ready steady go)
 (FPart is a part that you have to create and rename to FPart)(make sure to number them)
 ```
