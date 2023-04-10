@@ -144,3 +144,13 @@ if 5 < 19 then
 	Vari.BrickColor = BrickColor.new("Really blue")
 end -(i made a part and named it IFPart and did that if 5 is LESS THAN 19 then in 2 seconds the part would turn really blue)
 ```
+# Tables
+
+```
+local STable = {"wow",2,64,true}
+
+print(#STable)- (use {} for tables) (would print 4 since there are 4 objects seperated by commas in the brackets)
+--------------------------------------------------
+local STable = {"wow",2,64,true}
+
+print(STable[3]) -(use [] for selecting objects in the table) (it would print 64 since its the third object in the table)
