@@ -149,8 +149,15 @@ end -(i made a part and named it IFPart and did that if 5 is LESS THAN 19 then i
 ```
 local STable = {"wow",2,64,true}
 
-print(#STable)- (use {} for tables) (would print 4 since there are 4 objects seperated by commas in the brackets) ("#" would mean number of)
+print(#STable)- (use {} for tables) (would print 4 since there are 4 objects/index seperated by commas in the brackets) ("#" would mean number of)
 --------------------------------------------------
 local STable = {"wow",2,64,true}
 
-print(STable[3]) -(use [] for selecting objects in the table) (it would print 64 since its the third object in the table)
+print(STable[3]) -(use [] for selecting objects in the table) (it would print 64 since its the third index in the table)
+--------------------------------------------------
+local STable = {"wow",2,64,true}
+
+table.insert(STable, "This will be added to the table") -(now its the fifth index in the table)
+
+print(STable[5]) -(would print the newly added fifth index thats in the table)
+```
