@@ -246,3 +246,23 @@ for Index = 1, 300, 1 do
 	cpart.BrickColor = BrickColor.Random()
 	cpart.Material = Enum.Material.Neon
 end -(will place 300 random colored neon blocks every 0.01 seconds)
+-------------------------------------------------------
+local Ltable = {3,6,1,75,2}
+
+for i,v in pairs(Ltable) do -(Loop through every part of Ltable) (i is index and v is value) (the forth index is 4 and the forth value is 75)
+	
+end
+--------------------------------------------------------
+while true do -(will loop if true)
+	
+end
+--------------------------------------------------------
+while true do
+	wait(0.01)
+	local cpart = Instance.new("Part")
+	cpart.Parent = workspace
+	cpart.BrickColor =BrickColor.Random()
+	cpart.Material = Enum.Material.Neon
+	cpart.Shape = Enum.PartType.Ball
+end -(will flood the map with random neon color balls forever)
+```
