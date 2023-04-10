@@ -26,4 +26,6 @@ Part.Anchored = false (anchored is a property) (true and false can enable and di
 
 Part.BrickColor = BrickColor.new("name of color") (changes the brick color duh)
 Part.BrickColor = BrickColor.Random() (random brick color)
+Part.Position = Vector3.new(-17, 0.5, 3) (vector3.new is too add/change new scales to the part)
+Part.Size = Vector3.new(25, 7, 33) (will change the original size to the x, y, z scale that you add)
 ```
