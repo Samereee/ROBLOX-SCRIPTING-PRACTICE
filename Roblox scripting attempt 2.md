@@ -160,4 +160,14 @@ local STable = {"wow",2,64,true}
 table.insert(STable, "This will be added to the table") -(now its the fifth index in the table)
 
 print(STable[5]) -(would print the newly added fifth index thats in the table)
+--------------------------------------------------
+local STable = {"wow",2,64,true}
+
+table.insert(STable, "This will be added to the table")
+
+print(STable[5])
+
+table.remove(STable,5)
+
+print(STable[5]) -(initially would print index 5 but after removing the fifth index it will say nil since its no longer an index)
 ```
