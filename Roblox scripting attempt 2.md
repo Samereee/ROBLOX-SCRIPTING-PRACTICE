@@ -149,7 +149,7 @@ end -(i made a part and named it IFPart and did that if 5 is LESS THAN 19 then i
 ```
 local STable = {"wow",2,64,true}
 
-print(#STable)- (use {} for tables) (would print 4 since there are 4 objects seperated by commas in the brackets)
+print(#STable)- (use {} for tables) (would print 4 since there are 4 objects seperated by commas in the brackets) ("#" would mean number of)
 --------------------------------------------------
 local STable = {"wow",2,64,true}
 
