@@ -207,12 +207,12 @@ wait(1)
 
 spawnexplosion() -(will spawn an explosion in 1 second)
 -----------------------------------------------------
-local Iexplosion =Instance.new("Explosion")
+local Iexplosion = Instance.new("Explosion")
 	Iexplosion.Parent = game.Workspace
 
 
 wait(1)
 
 
-Iexplosion:Destroy() -(will remove the explosion
+Iexplosion:Destroy() -(will remove the explosion)
 ```
