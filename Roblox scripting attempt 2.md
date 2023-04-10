@@ -231,3 +231,18 @@ CLPart.Parent = game.Workspace
 wait(3)
 
 CLPart:Destroy() -(it will destroy the clone in 3 seconds)
+```
+# Loops
+
+```
+for Index = 1, 10, 1 do -(Index = 1, stops when Index = 10, increase Index by 1 every loop until 10)
+	print(Index)
+end -(will print from 1 to 10)
+-------------------------------------------------------
+for Index = 1, 300, 1 do
+	wait(0.01)
+	local cpart = Instance.new("Part")
+	cpart.Parent = game.Workspace
+	cpart.BrickColor = BrickColor.Random()
+	cpart.Material = Enum.Material.Neon
+end -(will place 300 random colored neon blocks every 0.01 seconds)
