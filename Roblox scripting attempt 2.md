@@ -171,3 +171,48 @@ table.remove(STable,5)
 
 print(STable[5]) -(initially would print index 5 but after removing the fifth index it will say nil since its no longer an index)
 ```
+# Instancing
+
+```
+local CPart = Instance.new("Part")
+
+CPart.Parent = game.Workspace -(parent will make it so that its in an area) (will place a part in the middle of the map) (the spawn point can cover it)
+--------------------------------------------------
+function spawnpart()
+	local CPart = Instance.new("Part")
+	CPart.Parent = game.Workspace
+	CPart.BrickColor = BrickColor.Random()
+end
+
+spawnpart()
+
+wait(1)
+
+spawnpart()
+
+wait(1)
+
+spawnpart()
+
+wait(1)
+
+spawnpart() -(will add a random colored part every 1 second)
+----------------------------------------------------
+function spawnexplosion()
+	local Iexplosion =Instance.new("Explosion")
+	Iexplosion.Parent = game.Workspace
+end
+
+wait(1)
+
+spawnexplosion() -(will spawn an explosion in 1 second)
+-----------------------------------------------------
+local Iexplosion =Instance.new("Explosion")
+	Iexplosion.Parent = game.Workspace
+
+
+wait(1)
+
+
+Iexplosion:Destroy() -(will remove the explosion
+```
