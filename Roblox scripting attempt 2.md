@@ -216,3 +216,18 @@ wait(1)
 
 Iexplosion:Destroy() -(will remove the explosion)
 ```
+# Cloning
+
+```
+(Press ctrl + g to model a group of selected parts into one)
+wait(2)
+local CLPart = game.ReplicatedStorage.Parts:Clone()
+CLPart.Parent = game.Workspace -(first drag and drop part into replicatedstorage) (it will spawn a clone in 2 seconds)
+-------------------------------------------------------
+wait(2)
+local CLPart = game.ReplicatedStorage.Parts:Clone()
+CLPart.Parent = game.Workspace
+
+wait(3)
+
+CLPart:Destroy() -(it will destroy the clone in 3 seconds)
