@@ -22,7 +22,7 @@ Print(Name1) - (will print 7)
 ```
 local Part = game.Workspace.(name of part)
 -------------------------------------------------
-Part.Anchored = false - (anchored is a property) (true and false can enable and disable it) (example: Part.Anchored = ture will make it anchored)
+Part.Anchored = false - (anchored is a property) (true and false can enable and disable it) (example: Part.Anchored = true will make it anchored)
 -------------------------------------------------
 Part.BrickColor = BrickColor.new("name of color") - (changes the brick color duh)
 Part.BrickColor = BrickColor.Random() - (random brick color)
