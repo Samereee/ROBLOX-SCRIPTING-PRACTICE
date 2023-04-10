@@ -129,11 +129,18 @@ end -(else means that if its any thing other than "123 or 122" it will print NOO
 --------------------------------------------------
 if 1 + 1 == 2 and 2 + 2 == 4 then
 	print("indeed")
-end -(and just means if you want to add more than 1 if statment but dont want to flood with if this if that)
+end -("and" just means if you want to add more than 1 if statment but dont want to flood with if this if that)
 --------------------------------------------------
 local Vari = "122" or "126"
 
 if Vari == "124" or "126" then
 	print("This is true")
-end -(or would make it so that if its this or that then it would do the action
+end -("or" would make it so that if its this or that then it would do the action)
+--------------------------------------------------
+local Vari = game.Workspace.IFPart
+
+if 5 < 19 then
+	wait(2)
+	Vari.BrickColor = BrickColor.new("Really blue")
+end -(i made a part and named it IFPart and did that if 5 is LESS THAN 19 then in 2 seconds the part would turn really blue)
 ```
