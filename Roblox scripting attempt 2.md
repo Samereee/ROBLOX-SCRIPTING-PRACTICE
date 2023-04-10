@@ -116,3 +116,13 @@ local Vari = "124"
 if Vari == "123" then
 	print("yes")
 end -(since its not 123 it will not print)
+-------------------------------------------------
+local Vari = "124"
+
+if Vari == "122" then
+	print("yes")
+elseif Vari == "123" then
+	print("yes 123")
+else
+	print("No NO NOOO!")
+end -(else means that if its any thing other than "123 or 122" it will print NOOOO)
