@@ -30,7 +30,7 @@ Part.Position = Vector3.new(-17, 0.5, 3) - (vector3.new is too add/change new x,
 Part.Size = Vector3.new(25, 7, 33) - (will change the original size to the x, y, z scale that you add)
 ```
 
-# Functions and events
+# Functions
 
 ```
 function ChangeColor()
