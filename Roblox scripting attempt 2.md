@@ -61,4 +61,30 @@ Changecolor(game.Workspace.FPart2)
 wait(2)
 
 Changecolor(game.Workspace.FPart3) - will change the color of 3 individual blocks
+
+function ChangecolorRed(Functionspart1)
+	Functionspart1.BrickColor = BrickColor.new("Really red")
+	function ChangecolorYellow (Functionspart2)
+		Functionspart2.BrickColor = BrickColor.new("New Yeller")
+		function ChangecolorGreen (Functionspart3)
+			Functionspart3.BrickColor = BrickColor.new("Lime green")
+		end
+	end
+end
+
+wait(2)
+
+ChangecolorRed(game.Workspace.FPart1)
+print("Get Ready!")
+
+wait(2)
+
+ChangecolorYellow(game.Workspace.FPart2)
+print("Steady!")
+
+wait(2)
+
+ChangecolorGreen(game.Workspace.FPart3)
+print("Go!") - (A countdown that changes each block red yellow green respectivley and prints ready steady go)
+(FPart is a part that you have to create and rename to FPart)(make sure to number them)
 ```
